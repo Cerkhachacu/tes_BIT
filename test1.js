@@ -2,7 +2,7 @@ var dict = ['pro', 'gram', 'merit', 'program', 'it', 'programmer'];
 
 function split() {
     let word = prompt("Input a word");
-    let kata = word.split('');
+    let kata = word.toLowerCase().split('');
     let syllables = [];
     let i = 0;
     let a = 0;
